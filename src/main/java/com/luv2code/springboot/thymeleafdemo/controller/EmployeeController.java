@@ -42,7 +42,7 @@ public class EmployeeController {
 	public String listEmployees(Model theModel) {
 		
 		// add to the spring model
-		
+		theModel.addAttribute("employees", theEmployees);
 		
 		// 
 		
