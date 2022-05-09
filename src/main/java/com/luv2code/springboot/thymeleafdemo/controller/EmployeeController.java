@@ -1,5 +1,6 @@
 package com.luv2code.springboot.thymeleafdemo.controller;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
@@ -26,8 +27,12 @@ public class EmployeeController {
 		Employee emp3 = new Employee(3, "Avani", "Gupta", "avani@luv2code.com");
 		
 		// create the list
+		theEmployees = new ArrayList<>();
 		
 		// add to the list
+		theEmployees.add(emp1);
+		theEmployees.add(emp2);
+		theEmployees.add(emp3);
 	}
 	
 	// add mapping for "/list"
