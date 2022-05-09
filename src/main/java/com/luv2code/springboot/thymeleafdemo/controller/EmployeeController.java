@@ -24,7 +24,7 @@ public class EmployeeController {
 	private void loadData() {
 		
 		// create employees
-		Employee empl = new Employee(1, "Leslie", "Andrews", "leslie@luv2code.com");
+		Employee emp1 = new Employee(1, "Leslie", "Andrews", "leslie@luv2code.com");
 		Employee emp2 = new Employee(2, "Emma", "Baumgarten", "emma@luv2code.com");
 		Employee emp3 = new Employee(3, "Avani", "Gupta", "avani@luv2code.com");
 		
@@ -44,11 +44,7 @@ public class EmployeeController {
 		// add to the spring model
 		theModel.addAttribute("employees", theEmployees);
 		
-		// 
-		
-		
-		
-		return null;
+		return "list-employees";
 		
 	}
 	
