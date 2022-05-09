@@ -39,13 +39,6 @@ public class Employee {
 		this.email = email;
 	}
 
-
-	public Employee(String firstName, String lastName, String email) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.email = email;
-	}
-	
 	// define getter/setter
 
 	public int getId() {
