@@ -43,8 +43,9 @@ public class EmployeeController {
 		// create model attribute to bind form data
 		Employee theEmployee = new Employee();
 		
+		theModel.addAttribute("employee", theEmployee);
 		
-		return null;
+		return "employees/employee-form";
 		
 	}
 }
