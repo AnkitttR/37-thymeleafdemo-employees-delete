@@ -28,6 +28,8 @@
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
 		
+		
+		
 	<!-- Dependency for thymeleaf support -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
