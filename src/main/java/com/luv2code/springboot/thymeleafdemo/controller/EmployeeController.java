@@ -64,11 +64,6 @@ public class EmployeeController {
 		return "employees/employee-form";
 	}
 	
-	
-	
-	
-	
-	
 	@PostMapping("/save")
 	public String saveEmployee(@ModelAttribute("employee") Employee theEmployee) {
 		
@@ -80,7 +75,13 @@ public class EmployeeController {
 		
 	}
 	
-	
+	@GetMapping("/delete")
+	public String delete(@RequestParam("employeeId") int theId) {
+		
+		// delete the employee 
+		
+		// redirect to /employee/list
+	}
 	
 	
 }
